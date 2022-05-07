@@ -8,9 +8,14 @@ const Nav = () => {
 
       <label for="toggle">&#9776;</label>
       <input type="checkbox" id="toggle" />
-      <NavItems>
+      <div className="navContent">
+        <a>Home</a>
+        <a>About</a>
+        <a>Blog</a>
+      </div>
+      {/* <NavItems>
         <button>LogIn</button>
-      </NavItems>
+      </NavItems> */}
     </Navigation>
   )
 }
